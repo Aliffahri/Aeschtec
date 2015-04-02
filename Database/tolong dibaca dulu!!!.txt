@@ -1,0 +1,2 @@
+ini versi tanggal 02-04-2015 oleh Aliffahri Saputra
+jika kalian mengisi atau mengupdate manual, tolong update read me ini, terima kasih.

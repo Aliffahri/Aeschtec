@@ -6,7 +6,7 @@
 package database.Service;
 
 /**
- *
+ * NYOBAAAAAAA TUTORIAL
  * @author aliffahri
  */
 public class SI_Klinik_API {

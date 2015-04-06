@@ -10,7 +10,7 @@ package form_Apoteker;
 
 /**
  *
- * @author nyoba 
+ * @author nyoba belajar
  */
 public class Form_Detil_PO extends javax.swing.JFrame {
 

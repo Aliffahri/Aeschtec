@@ -10,7 +10,7 @@ package form_Apoteker;
 
 /**
  *
- * @author piudt chantique bingits
+ * @author nyoba 
  */
 public class Form_Detil_PO extends javax.swing.JFrame {
 

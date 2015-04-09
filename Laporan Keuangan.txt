@@ -1,0 +1,24 @@
+Feature : Staf klinik bisa membuat laporan keuangan
+-----------------------------------------------------------------------------------
+Scenario : Membuat Laporan keuangan suatu periode yang mempunyai transaksi
+
+	Given	Staf klinik sudah melakukan login
+	And		Semua data transaksi sudah disimpan di dalam database
+	When	Staf klinik masuk ke fitur laporan keuangan
+	And		Menginputkan periode laporan keuangan
+	And 	Menekan tombol tampilkan
+	Then	Semua data transaksi pada periode tersebut ditampilkan pada tabel
+	When	Staf klinik menekan tombol cetak dokumen
+	Then	Laporan keuangan periode tersebut tercetak ke dalam bentuk pdf
+	
+-----------------------------------------------------------------------------------
+Scenario : Membuat laporan keuangan suatu periode yang tidak mempunyai transaksi
+
+	Given	Staf klinik sudah melakukan login
+	And		Semua data transaksi sudah disimpan di dalam database
+	When	Staf klinik masuk ke fitur laporan keuangan
+	And		Menginputkan periode laporan keuangan
+	And 	Menekan tombol tampilkan
+	Then	Menampilkan pesan tidak ada transaksi pada periode tersebut
+	When	Staf klinik menekan tombol OK
+	Then 	Staf klinik maish tetap berada pada fitur laporan keuangan

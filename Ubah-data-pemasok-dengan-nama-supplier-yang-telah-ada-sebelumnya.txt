@@ -1,0 +1,38 @@
+Feature			Mengubah data pemasok
+
+Scenario		Ubah data pemasok dengan nama supplier yang telah ada sebelumnya
+
+Given			Apoteker berada pada halaman data supplier
+
+When			Apoteker memilih row pada tabel data supplier  yang akan diubah
+
+And				Apoteker menekan tombol ubah
+
+
+Then			Apoteker dihadapkan pada form untuk update data supplier
+
+When			Apoteker mengubah nama supplier misalnya “PT. KIMIA FARMA” menjadi “ PT. SEHAT ABADI”
+
+And				Apoteker menekan tombol “OK” 
+
+
+Then 			Apoteker mendapat pesan peringatan bahwa update nama supplier yang telah diinputkan sudah ada di database
+
+
+When			Apoteker menekan tombol “OK”
+
+
+And				Apoteker mengubah kembali field nama supplier dengan nama supplier yang belum ada sebelumnya di database
+
+And				Apoteker menekan tombol “OK”
+
+Then			Apoteker mendapat pesan bahwa update data supplier  yang telah diinputkan berhasil tersimpan 
+
+
+And 			Apoteker berada pada halaman data supplier
+
+And				Apoteker dapat melihat data supplier sebelumnya yang telah ada dan data supplier yang baru saja di ubah
+
+
+
+
